@@ -19,7 +19,7 @@
    gender = prompt ('what is your gender');
    town = prompt('where do you live?');
 
-   
+
     let check = confirm ('is this correct?'+ "\n" + age + "\n" +gender + "\n"+town);
 
     if (check === false) {
