@@ -11,6 +11,18 @@
 
 (function() {
 
-    // your code here
+   let age;
+   let gender;
+   let town;
+
+   age = prompt('how old are you?');
+   gender = prompt ('what is your gender');
+   town = prompt('where do you live?');
+
+
+
+    confirm ('is this correct? '+ age);
+    confirm ('is this correct? '+ gender);
+    confirm ('is this correct? '+ town);
 
 })();
