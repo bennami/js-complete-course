@@ -1,29 +1,23 @@
-/* becode/javascript
- *
- * /02-maths/04-sort-numbers/script.js - 2.4: classer des nombres
- *
- * coded by leny@BeCode
- * started at 26/10/2018
- */
 
-// NOTE: don't focus on the existing code structure for now.
-// You will have time to focus on it later.
+//first line is for the button with "run id. it listens to a click, then runs function
+document.getElementById("run").addEventListener("click", function() {
 
-(function() {
-
-    // to get the value of an input: document.getElementById("element-id").value
-        let Arr;
-    document.getElementById("run").addEventListener("click", function() {
-
-        Arr = document.getElementById('numbers').value;
-        Arr.sort(function (a,b)){
-            return a-b;
-        }
-
-    });
+// to get the value of an input: document.getElementById("element-id").value
+// put value into variable arr
+let arr = document.getElementById("numbers").value;
+//the value I get is a string
 
 
+// split tot transform into arrays, we remove comma and space from string to keep only numbers
+let result = arr.split(", ");
 
-})();
+
+result.sort(function(a,b){return a-b});
+
+
+// after resturning sor, i asign res to "numbers"
+document.getElementById("numbers").value = result;
+
+});
 
 
