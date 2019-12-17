@@ -13,13 +13,15 @@
 
     document.getElementById("run").addEventListener("click", function() {
 
-        let numberString =[ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21];
+      let square;
 
+      for (n =1; n < 22; n ++){
 
+      square = Math.pow( n,2);
 
+      alert (square + " ");
 
-
-        // your code here
+      }
 
     });
 
