@@ -9,22 +9,32 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-function calc() {
-switch (calc){
+function calc('this.id') {
+    let number1 = document.getElementById ("op-one" ).value;
+    let number2 = document.getElementById ("op-two" ).value ;
 
-case "addition":
-    number1 = document.getElementById ("op-one" ).value ;
-    number2 = document.getElementById ("op-two").value ;
 
-    sum = parseInt(number1) + parseInt(number2);
+    switch (calc()){
+        case 'addition':
+            let result = parseInt(number1) + parseInt(number2);
+            alert (result);
+            break;
+        case 'substraction':
+            let result = parseInt(number1) - parseInt(number2);
+            alert (result);
+            break;
+        case 'multiplication':
+            let result = parseInt(number1) - parseInt(number2);
+            alert (result);
+            break;
+        case 'division':
+            let result = parseInt(number1) - parseInt(number2);
+            alert (result);
+            break;
+    }
 
-    alert(sum);
+
+
 }
-
-}
-
-(function() {
-    return true;
-})();
 
 
