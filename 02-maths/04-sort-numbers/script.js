@@ -12,12 +12,18 @@
 (function() {
 
     // to get the value of an input: document.getElementById("element-id").value
-
+        let Arr;
     document.getElementById("run").addEventListener("click", function() {
 
-       let numbers = [ 2, 4, 14, 10, 90, 23, 16];
-       sort(numbers);
+        Arr = document.getElementById('numbers').value;
+        Arr.sort(function (a,b)){
+            return a-b;
+        }
 
     });
 
+
+
 })();
+
+
