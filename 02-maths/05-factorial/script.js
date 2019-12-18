@@ -22,8 +22,11 @@
             }
 
           }
+        let result = factorial(number);
 
-        document.getElementById('number').value; = number ;
+        document.getElementById("result").value = result;
+
+        console.log(result);
 
     });
 
