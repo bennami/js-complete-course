@@ -9,7 +9,7 @@
 
         let number = parseInt(input);
 
-            console.log(number);
+
             function factorial(number){
             if (number > 0 && number <= 1){
 
@@ -22,11 +22,12 @@
             }
 
           }
-        let result = factorial(number);
 
-        document.getElementById("result").value = result;
+          let result = factorial(number);
 
-        console.log(result);
+          document.getElementById("result").innerHTML = result;
+
+
 
     });
 
