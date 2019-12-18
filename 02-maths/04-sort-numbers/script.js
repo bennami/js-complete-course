@@ -17,7 +17,7 @@ result.sort(function(a,b){return a-b});
 
 // after resturning sor, i asign res to "numbers"
 document.getElementById("numbers").value = result;
-
+//innerHTML does not work because js gets confused with the array, so value works for now. not a good practice, will solve later.
 });
 
 
