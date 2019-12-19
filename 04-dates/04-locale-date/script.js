@@ -10,7 +10,7 @@
 
     let hour = date.getHours();
     let minutes = date.getMinutes();
-        let time = hour +":"+ minutes; 
+        let time = hour +":"+ minutes;
 
 
     function getMonthName(month){
@@ -20,7 +20,7 @@
 
     function getDayName(dayname){
 
-        let dayNames= ['Monday', 'Tuesday', 'wednesday', 'thursday', 'friday','Saturday', 'Sunday'];
+        let dayNames= [' ', 'Monday', 'Tuesday', 'wednesday', 'thursday', 'friday','Saturday', 'Sunday'];
         return dayNames [dayname];
 }
 
