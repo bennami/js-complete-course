@@ -15,6 +15,6 @@ if (hour <= 18)
 else{
     document.getElementById("target").innerHTML = "good evening";
 }
-   
+
 
 })();
