@@ -10,20 +10,26 @@
 
 //current date
         let currentDate = new Date();
-        let CurrentDay = currentDate.getDay(); //
+        let CurrentDay = currentDate.getDate() ;
+        console.log(CurrentDay);
         let CurrentMonth = currentDate.getMonth() + 1; // +1 cuz month start at 0 in js
         console.log(CurrentMonth);
         let CurrentYear = currentDate.getFullYear();
 
 //calculate
 
-      let   bday =  CurrentDay - day ;
-      let bmonth = CurrentMonth  - month;
-      let byear =   CurrentYear - year;
+        let bday =  CurrentDay - day ;
+        let bmonth = CurrentMonth  - month;
+        let byear =   CurrentYear - year;
 
-      console.log (bday , bmonth, byear);
+        console.log ( bday, bmonth, byear);
+
+if (bday < 0){
+
+   return bday +30;
 
 
+}
 
 
 
