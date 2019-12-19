@@ -24,12 +24,8 @@
 
         console.log ( bday, bmonth, byear);
 
-if (bday < 0){
+//gives negative numbers
 
-   return bday +30;
-
-
-}
 
 
 
