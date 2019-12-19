@@ -10,6 +10,7 @@
 // You will have time to focus on it later.
 
 (function() {
+
 let date = new Date();
 let hour = date.getHours();
 let minutes = date.getMinutes();
@@ -27,7 +28,7 @@ else if(hour >= 18 )
     document.getElementById("target").innerHTML = "good evening"
 }
 else {
-    document.getElementById("target").innerHTML = "good evening"
+    document.getElementById("target").innerHTML = "hello"
 }
 
 

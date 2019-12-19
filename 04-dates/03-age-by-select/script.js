@@ -2,25 +2,27 @@
 
 (function () {
     document.getElementById("run").addEventListener("click", function() {
-
+ //input from user
         let day = document.getElementById("dob-day").value;
-        console.log(day);
-
         let month = document.getElementById("dob-month").value;
-        console.log(month);
-
         let year = document.getElementById("dob-year").value;
-        console.log (year);
-
-        let bday = day + " " + month + " " + year ;
-        console.log(bday) ;
 
 
+//current date
         let currentDate = new Date();
-        CurrentDay = currentDate.getDay();
-        CurrentMonth = currentDate.getMonth();
-        CurrentYear = currentDate.getFullYear();
-        console.log(CurrentYear);
+        let CurrentDay = currentDate.getDay();
+        let CurrentMonth = currentDate.getMonth();
+        let CurrentYear = currentDate.getFullYear();
+
+//calculate
+
+      let   bday =  CurrentDay - day ;
+      let bmonth = CurrentMonth  - month;
+      let byear =   CurrentYear - year;
+
+      console.log (bday , bmonth, byear);
+
+
 
 
 
