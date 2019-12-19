@@ -10,8 +10,9 @@
 
 //current date
         let currentDate = new Date();
-        let CurrentDay = currentDate.getDay();
-        let CurrentMonth = currentDate.getMonth();
+        let CurrentDay = currentDate.getDay(); //
+        let CurrentMonth = currentDate.getMonth() + 1; // +1 cuz month start at 0 in js
+        console.log(CurrentMonth);
         let CurrentYear = currentDate.getFullYear();
 
 //calculate
