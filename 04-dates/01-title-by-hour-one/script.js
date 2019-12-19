@@ -2,8 +2,7 @@
 
 (function() {
 
-    // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
-
+//built in methods that help you get a date and an hour inside the date
    let date = new Date();
    let hour = date.getHours();
 
@@ -16,6 +15,6 @@ if (hour <= 18)
 else{
     document.getElementById("target").innerHTML = "good evening";
 }
-    // your code here
+   
 
 })();
