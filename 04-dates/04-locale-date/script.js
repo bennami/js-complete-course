@@ -20,8 +20,8 @@
 
     function getDayName(dayname){
 
-        let dayNames= [' ', 'Monday', 'Tuesday', 'wednesday', 'thursday', 'friday','Saturday', 'Sunday'];
-        return dayNames [dayname];
+        let dayNames= [ 'Sunday','Monday', 'Tuesday', 'wednesday', 'thursday', 'friday','Saturday', 'Sunday'];
+        return dayNames [dayname ];
 }
 
 document.getElementById("target").innerHTML =  getDayName(dayname)+ " " + day+ " " + getMonthName(month)+ " " +  year +", "+time;
