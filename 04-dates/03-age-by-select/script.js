@@ -8,7 +8,7 @@
         let monthinput = document.getElementById("dob-month").value;
         let yearinput = document.getElementById("dob-year").value;
 
-        function bday(day,month,year){
+        function birthday(day,month,year){
 
 //current date
         let currentDate = new Date();
@@ -30,14 +30,14 @@
 
             byear--;
         }
-return byear;
 
+        return byear;
+     }
 
- }
-
- console.log(bday(dayinput, monthinput, yearinput));
+ console.log(birthday(dayinput, monthinput, yearinput));
 //gives negative numbers
 
+alert (birthday(dayinput,monthinput,yearinput));
 
 
 
