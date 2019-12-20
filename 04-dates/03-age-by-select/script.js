@@ -26,8 +26,11 @@
 
         console.log ( bday, bmonth, byear);
 
-        if ( bday < 0){
+        if ( bday < 0 && bmonth === 0 ){ //if month is zero and day is negative , it is not your bday yet, if day is negative and month is positive
+            byear--;
+        }
 
+        else if (bmonth < 0){
             byear--;
         }
 
