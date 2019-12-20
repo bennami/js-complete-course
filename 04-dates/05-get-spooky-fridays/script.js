@@ -3,7 +3,7 @@
     document.getElementById("run").addEventListener("click", function() {
         let yearInput = document.getElementById('year').value;
        // console.log(yearInput);
-        let date = new Date(yearInput, );
+        let date = new Date(yearInput);
        // console.log(date);
 
 function luckyFriday(yearInput){
