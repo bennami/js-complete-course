@@ -2,11 +2,13 @@
 
 (function () {
     document.getElementById("run").addEventListener("click", function() {
- //input from user
-        let day = document.getElementById("dob-day").value;
-        let month = document.getElementById("dob-month").value;
-        let year = document.getElementById("dob-year").value;
+        //declare before function
+        //input from user
+        let dayinput = document.getElementById("dob-day").value;
+        let monthinput = document.getElementById("dob-month").value;
+        let yearinput = document.getElementById("dob-year").value;
 
+        function bday(day,month,year){
 
 //current date
         let currentDate = new Date();
@@ -24,6 +26,16 @@
 
         console.log ( bday, bmonth, byear);
 
+        if ( bday < 0){
+
+            byear--;
+        }
+return byear;
+
+
+ }
+
+ console.log(bday(dayinput, monthinput, yearinput));
 //gives negative numbers
 
 
