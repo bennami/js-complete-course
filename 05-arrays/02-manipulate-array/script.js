@@ -1,17 +1,8 @@
-/* becode/javascript
- *
- * /05-arrays/02-manipulate-array/script.js - 5.2: manipulation de tableau
- *
- * coded by leny@BeCode
- * started at 26/10/2018
- */
 
-// NOTE: don't focus on the existing code structure for now.
-// You will have time to focus on it later.
 
 (function() {
 
-    var fruits = [
+    let fruits = [
         "pomme",
         "poire",
         "fraise",
@@ -24,6 +15,23 @@
         "cerise",
     ];
 
-    // your code here
+
+document.getElementById('run').addEventListener('click', function () {
+document.getElementById('run');
+
+    console.log(fruits.length); // gets lenght of array
+    console.log(fruits);
+    fruits.pop(); //removes last string
+    fruits.shift();//removes first string
+    console.log(fruits);
+    fruits.push ('kiwi'); //adds string element to end
+    fruits.unshift('banana'); // adds string element to start
+    console.log(fruits);
+
+
+});
+
+
+
 
 })();
