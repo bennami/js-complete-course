@@ -24,9 +24,12 @@ document.getElementById('run');
     fruits.pop(); //removes last string
     fruits.shift();//removes first string
     console.log(fruits);
+    alert(fruits);
     fruits.push ('kiwi'); //adds string element to end
     fruits.unshift('banana'); // adds string element to start
     console.log(fruits);
+
+    alert(fruits);
 
 
 });

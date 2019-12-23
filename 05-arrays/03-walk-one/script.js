@@ -26,6 +26,13 @@
         "cherry",
     ];
 
-    // your code here
+
+  document.getElementById('run').addEventListener('click', function(){
+ //i = index
+      for(i=0; i < fruits.length; i++){
+          console.log(i + " " + fruits[i]);
+
+      }
+    });
 
 })();
