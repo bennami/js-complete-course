@@ -26,6 +26,10 @@
         "cherry",
     ];
 
-    // your code here
+   document.getElementById('run'). addEventListener("click", function(){
+    let apple = fruits.includes("apple");
+    console.log(` ${apple} - it includes an apple `);
+
+   });
 
 })();
