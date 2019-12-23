@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b4a4ebe1-3f15-4b67-9fcf-0a134e682fec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-arrays/02-manipulate-array/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/05-arrays/02-manipulate-array/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-arrays/03-walk-one/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/05-arrays/03-walk-one/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/05-arrays/04-walk-two/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/05-arrays/04-walk-two/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-arrays/05-walk-three/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/05-arrays/05-walk-three/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-arrays/06-find-in-array/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/05-arrays/06-find-in-array/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576829172357</updated>
       <workItem from="1576829174043" duration="6684000" />
-      <workItem from="1576838397961" duration="8672000" />
+      <workItem from="1576838397961" duration="12297000" />
     </task>
     <servers />
   </component>
