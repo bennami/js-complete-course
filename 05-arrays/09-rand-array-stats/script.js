@@ -8,34 +8,29 @@
 
         let arr = [];
 
-        for ( x = 1; x <= 100; x++) {
-            arr.push(x);
-           // arr.push[i];
-           // console.log(arr);
-            //console.log(Math.floor(Math.random()*100
+        for ( x = 0; x < 10; x++) {
+
+            arr[x] = Math.floor(Math.random()*100); //randomize
+
+            document.getElementById('n-'+(x+1)).innerHTML = arr[x]; //assign number to tablepop
+
+
         }
-console.log((arr));
+
+        var min = Math.min.apply(null, arr); //why .apply and null??????
+
+        document.getElementById('min').innerHTML = min ;
 
 
-//shuffle numbers
-        function Shuffle(arr){
-          let currentIndex = arr.length, tempValue, randomIndex;
+        var max = Math.max.apply(null, arr);
+        document.getElementById('max').innerHTML = max;
 
-          while ( 0 !== currentIndex){
-
-              randomIndex = Math.floor(Math.random()*currentIndex);
-              currentIndex -= 1;
+        var sum = arr.reduce(null, arr);
+        console.log(sum);
 
 
-              //swap with current element
-              tempValue = arr[currentIndex];
-              arr[currentIndex]=arr[randomIndex];
-              arr[randomIndex]=tempValue;
 
-            }
-return arr;
-        }
-        console.log(arr);
+
 
     });
 })();
