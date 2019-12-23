@@ -91,6 +91,9 @@
 
     document.getElementById('run').addEventListener('click', function(){
 
+/*
+       Solution without filter method
+
         for (i = 0; i < people.length; i++){
 
             if(people[i].age > 18){
@@ -101,8 +104,17 @@
 
         }
 
+ */
 
+
+      let ageover18 =  people.filter(function(valueover18){
+
+         return  valueover18.age > 18;
+
+        });
+        console.log(ageover18);
 
     });
+
 
 })();
