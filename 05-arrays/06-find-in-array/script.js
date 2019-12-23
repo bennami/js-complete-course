@@ -93,17 +93,16 @@
 
     document.getElementById('run').addEventListener('click', function(){
 
-        people.forEach(function (people) {
-
-            if (people.firstname === "Jean" && people.lastname === "Dupont") {
-
-                console.log(people.email);
-               
+        for (i = 0; i < people.length; i++){
 
 
+             if(people[i].firstname === "Jean" && people[i].lastname === "Dupont"){
+                 console.log(people[i].email + ' ' + i);
             }
 
-        });
+        }
+
+
 
     });
 
