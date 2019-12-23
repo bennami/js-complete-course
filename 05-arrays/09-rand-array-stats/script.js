@@ -1,16 +1,41 @@
-/* becode/javascript
- *
- * /05-arrays/09-rand-array-stats/script.js - 5.9: tableau aléatoire & statistiques
- *
- * coded by leny@BeCode
- * started at 26/10/2018
- */
-
-// NOTE: don't focus on the existing code structure for now.
-// You will have time to focus on it later.
 
 (function() {
+    document.getElementById('run'). addEventListener("click", function(){
 
-    // your code here
 
+
+//generate 10 different random n between 1 and 100
+
+        let arr = [];
+
+        for ( x = 1; x <= 100; x++) {
+            arr.push(x);
+           // arr.push[i];
+           // console.log(arr);
+            //console.log(Math.floor(Math.random()*100
+        }
+console.log((arr));
+
+
+//shuffle numbers
+        function Shuffle(arr){
+          let currentIndex = arr.length, tempValue, randomIndex;
+
+          while ( 0 !== currentIndex){
+
+              randomIndex = Math.floor(Math.random()*currentIndex);
+              currentIndex -= 1;
+
+
+              //swap with current element
+              tempValue = arr[currentIndex];
+              arr[currentIndex]=arr[randomIndex];
+              arr[randomIndex]=tempValue;
+
+            }
+return arr;
+        }
+        console.log(arr);
+
+    });
 })();
