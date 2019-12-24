@@ -17,17 +17,17 @@
 
         }
 
-        var min = Math.min.apply(null, arr); //why .apply and null??????
+      let min = Math.min.apply(null, arr); //why .apply and null??????
 
         document.getElementById('min').innerHTML = min ;
 
 
-        var max = Math.max.apply(null, arr);
+       let max = Math.max.apply(null, arr);
         document.getElementById('max').innerHTML = max;
 
-        var sum = arr.reduce(null, arr);
-        console.log(sum);
-
+        let sum = arr.reduce((acc,arr) => acc +arr);
+        console.log(sum)
+        document.getElementById('sum').innerText = sum;
 
 
 
