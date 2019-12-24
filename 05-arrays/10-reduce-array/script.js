@@ -89,6 +89,26 @@
         },
     ];
 
-    // your code here
+//new array with for
+    let ages= [];
+
+    for (let i=0; i< people.length; i++){
+      ages[i]= people[i].age;
+
+    }
+
+// new array with filter
+
+    let newages =[];
+     people.filter(function(allAges,index ){
+
+         newages[index]= allAges.age;
+
+    });
+    console.log(newages);
+
+
+    sum = newages.reduce((acc,newages) => acc + newages);
+    console.log(sum);
 
 })();

@@ -11,7 +11,7 @@
 
 (function() {
 
-    var fruits = [
+   let fruits = [
         "cerise",
         "durian",
         "pomme",
@@ -28,6 +28,19 @@
         "cerise",
     ];
 
-    // your code here
 
+let fruitset = new Set(fruits);
+    console.log(fruitset);
+
+
+// push result in new array
+   let b =[];
+
+    for(let i=0; i < fruits.length; i++){
+        if(b.indexOf(fruits[i]) === -1){
+            b.push(fruits[i]);
+        }
+    }
+
+console.log(b);
 })();

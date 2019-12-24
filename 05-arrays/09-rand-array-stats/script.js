@@ -17,12 +17,12 @@
 
         }
 
-      let min;
+        let min;
         min = Math.min.apply(null, arr); //why .apply and null??????
         document.getElementById('min').innerHTML = min ;
 
 
-       let max;
+        let max;
         max = Math.max.apply(null, arr);
         document.getElementById('max').innerHTML = max;
 
@@ -45,16 +45,11 @@
         }
          console.log(total);
 
-        //average
 
+        //average
         let avg = (sum /arr.length);
         console.log(avg);
         document.getElementById('average').innerHTML = avg ;
-
-
-
-
-
 
 
 
