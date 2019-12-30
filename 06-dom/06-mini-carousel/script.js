@@ -11,7 +11,7 @@
 
 (function() {
 
-    var gallery= [
+    let gallery= [
         "../../_shared/img/bell.svg",
         "../../_shared/img/clock.svg",
         "../../_shared/img/compass.svg",
@@ -19,6 +19,23 @@
         "../../_shared/img/map.svg",
     ];
 
-    // your code here
+    let imagesrc = document.getElementById('change');
+
+//assing a value to i outside the eventlistener
+    let i = 1;
+
+    document.getElementById('next'). addEventListener("click", function(){
+
+//restart when you reach end of list
+        if (i === gallery.length){
+            i=0;
+        }
+
+//change src, i++ to change i with every click
+        imagesrc.setAttribute("src", gallery[i]);
+        i++;
+        
+    });
+
 
 })();
