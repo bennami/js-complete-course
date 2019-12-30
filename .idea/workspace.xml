@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b4a4ebe1-3f15-4b67-9fcf-0a134e682fec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-dom/04-attr-create/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/06-dom/04-attr-create/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-dates/05-get-spooky-fridays/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-dates/05-get-spooky-fridays/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-dom/05-hover-image/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-dom/05-hover-image/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-dom/05-hover-image/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/06-dom/05-hover-image/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576829172357</updated>
       <workItem from="1576829174043" duration="6684000" />
-      <workItem from="1576838397961" duration="42329000" />
+      <workItem from="1576838397961" duration="45074000" />
     </task>
     <servers />
   </component>
@@ -78,5 +80,9 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="741" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1576838402489" />
+    <state x="344" y="169" width="670" height="676" key="search.everywhere.popup" timestamp="1577699451603">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="344" y="169" width="670" height="676" key="search.everywhere.popup/0.23.1440.822@0.23.1440.822" timestamp="1577699451603" />
   </component>
 </project>

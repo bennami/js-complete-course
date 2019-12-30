@@ -10,7 +10,7 @@ function luckyFriday(yearInput){
 
 
         for ( month=0; month<12; month ++){
-let result = " "
+         let result = " "
             var d = new Date(yearInput, month,13 );
 
             if (d.getDay() === 5){
