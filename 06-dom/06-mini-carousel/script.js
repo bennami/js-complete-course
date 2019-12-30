@@ -26,15 +26,16 @@
 
     document.getElementById('next'). addEventListener("click", function(){
 
+//change src, i++ to change i with every click
+        imagesrc.setAttribute("src", gallery[i]);
+        i++;
+
+
 //restart when you reach end of list
         if (i === gallery.length){
             i=0;
         }
 
-//change src, i++ to change i with every click
-        imagesrc.setAttribute("src", gallery[i]);
-        i++;
-        
     });
 
 

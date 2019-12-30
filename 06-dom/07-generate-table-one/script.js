@@ -10,7 +10,34 @@
 // You will have time to focus on it later.
 
 (function() {
+  //create table and tbody
+  let table = document.createElement('table');
+  let tbody = document.createElement('tbody');
 
-    // your code here
+//append table to target
+  document.getElementById("target").append(table);
+
+//append tbdoy to table
+  table.append(tbody);
+
+//first loop to create tr
+  for (i=0; i <10; i++){
+
+    let row = document.createElement("tr");
+    tbody.appendChild(row);
+    console.log(row);
+
+      // a loop inside a loop to insert td inside row
+          for (x = 0; x<1; x++){
+          let cell = row.insertCell();
+          cell.appendChild(document.createTextNode("hihi"));
+         }
+    }
+
+
+
 
 })();
+
+
+
