@@ -33,9 +33,7 @@
             let cell = row.insertCell();
             cell.appendChild(document.createTextNode(i*x));
 
-
         }
-
 
     }
 })();

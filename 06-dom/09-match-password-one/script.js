@@ -11,6 +11,23 @@
 
 (function() {
 
-    // your code here
+    document.getElementById('run').addEventListener("click", function () {
 
-})();
+      let pass1 = document.getElementById('pass-one').value;
+       let pass2 = document.getElementById('pass-two').value;
+
+       console.log(pass1, pass2);
+
+       if (pass1 ===pass2){
+           document.getElementById('pass-two').style.borderColor = "silver";
+       }
+
+       else{
+           document.getElementById('pass-two').style.borderColor = "red";
+       }
+
+
+
+    });
+
+    })();
