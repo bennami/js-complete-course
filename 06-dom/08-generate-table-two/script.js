@@ -11,6 +11,31 @@
 
 (function() {
 
-    // your code here
+    //create table and tbody
+    let table = document.createElement('table');
 
+
+//append table to target
+    document.getElementById("target").append(table);
+
+
+
+//first loop to create tr
+    for (i=1; i <=10; i++){
+
+        let row = document.createElement("tr");
+        table.appendChild(row);
+
+        console.log(row);
+
+        // a loop inside a loop to insert td inside row
+        for (x = 1; x<=10; x++){
+            let cell = row.insertCell();
+            cell.appendChild(document.createTextNode(i*x));
+
+
+        }
+
+
+    }
 })();
