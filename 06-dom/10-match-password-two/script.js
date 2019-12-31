@@ -24,7 +24,7 @@
 
         else{
 
-                var element = document.getElementById("pass-two");
+                let element = document.getElementById("pass-two");
                 element.classList.add("error");
 
         }

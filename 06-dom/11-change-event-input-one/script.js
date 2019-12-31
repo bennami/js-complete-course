@@ -1,16 +1,27 @@
-/* becode/javascript
- *
- * /06-dom/11-change-event-input-one/script.js - 6.11: événement change (1)
- *
- * coded by leny@BeCode
- * started at 26/10/2018
- */
-
-// NOTE: don't focus on the existing code structure for now.
-// You will have time to focus on it later.
 
 (function() {
 
-    // your code here
+
+    document.getElementById("pass-one").onkeyup = function() {
+//get input value
+        let password = document.getElementById("pass-one").value;
+//count length
+        let n = password.length ;
+//assign n value to counter
+           document.getElementById('counter').innerHTML = n + "/10";
+//add max length attr to html
+        document.getElementById("pass-one").maxLength= 10;
+
+//turn border red if n >=10
+        if(n >= 10){
+            document.getElementById("pass-one").style.borderColor='red';
+        }
+
+
+    }
+
+
+
+
 
 })();
