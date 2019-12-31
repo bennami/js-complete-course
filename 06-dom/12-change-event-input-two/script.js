@@ -11,6 +11,22 @@
 
 (function() {
 
-    // your code here
+    document.getElementById("pass-one").onkeydown = function() {
+//get input value
+        let password = document.getElementById("pass-one").value;
+//count length
+        let n = password.length;
+        let checkPassword = new RegExp("[0-9].*[0-9]");
+
+        if (n >= 8 && checkPassword.test(password)) {
+            document.getElementById('validity').innerHTML = 'ok';
+            document.getElementById('pass-one').style.borderColor = "red";
+        } else {
+            document.getElementById('validity').innerHTML = 'not ok';
+            document.getElementById('pass-one').style.borderColor = "red";
+        }
+    }
+
+
 
 })();
