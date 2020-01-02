@@ -46,9 +46,9 @@
     document.getElementById("kiss").addEventListener("mouseover", mouseOver);
     document.getElementById("kiss").addEventListener("mouseout", mouseOut);
 
-    var imageTag = document.getElementById("kiss");
-    var change = imageTag.getAttribute("data-hover");
-    var change2 = imageTag.getAttribute("src");
+    let imageTag = document.getElementById("kiss");
+    let change = imageTag.getAttribute("data-hover");
+    let change2 = imageTag.getAttribute("src");
 
     function mouseOver() {
         imageTag.setAttribute("src", change);
