@@ -6,7 +6,6 @@
     let text = document.getElementById('target').innerHTML;
     let fontsize = document.getElementById('target').style.fontSize = '100%';
 
-    let element = document.createElement('p');
 
 //push text into array
     arr.push(text);
@@ -23,9 +22,28 @@
    for (i=0; i< arrnew.length; i++){
 
       console.log(arrnew[i]);
-      element = arrnew[i];
-      let sizes = parseInt(fontsize)+i *5;
+      let sizes = parseInt(fontsize)+i *10;
       console.log(sizes *2);
 
+
+        let element = document.createElement('span');
+        let content = document.createTextNode(arrnew[i++]);
+        element.appendChild(content);
+        let section = document.getElementById('box');
+        let child = document.getElementById('target');
+        section.insertBefore(element,child);
+        let Sizefull= 'font-size:'+sizes+'%';
+        document.getElementById('target').style.fontSize = '100%';
+        element.setAttribute('style',  Sizefull);
+
+       if (sizes >= 300){
+           sizes -= 50
+       } else{
+    sizes *= 50
+       }
    }
+
+//create p where array is placed
+
+
 })();
