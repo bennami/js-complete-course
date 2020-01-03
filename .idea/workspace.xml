@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b4a4ebe1-3f15-4b67-9fcf-0a134e682fec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-base/04-asv-confirm/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-base/04-asv-confirm/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-maths/01-calculator-one/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-maths/01-calculator-one/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-maths/03-even-square/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-maths/03-even-square/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-colors/03-change-bcg-three/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/03-colors/03-change-bcg-three/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/07-misc/01-waving-text/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/07-misc/01-waving-text/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-misc/02-typewriter-effect/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/07-misc/02-typewriter-effect/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/07-misc/03-worst-ui-one/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/07-misc/03-worst-ui-one/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-misc/04-worst-ui-two/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/07-misc/04-worst-ui-two/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +57,7 @@
       <updated>1576829172357</updated>
       <workItem from="1576829174043" duration="6684000" />
       <workItem from="1576838397961" duration="64301000" />
-      <workItem from="1577951885084" duration="33078000" />
+      <workItem from="1577951885084" duration="36799000" />
     </task>
     <servers />
   </component>

@@ -5,7 +5,6 @@
     let text = document.getElementById('target').innerHTML;
 
 
-
     // split to make string of every character in text
     let arrnew = text.split("");
 
