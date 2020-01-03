@@ -24,10 +24,9 @@
 
     if (check === false) {
         location.reload();
-    }
-            else{
+    } else{
             alert('thanks!');
-            }
+           }
 
 
 

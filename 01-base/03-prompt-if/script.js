@@ -15,7 +15,7 @@
 
   cake = prompt('would you like some cake?');
 
-  if (cake == 'yes'){
+  if (cake === 'yes'){
     alert ('congrats!');
   }
 else{
