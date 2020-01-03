@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b4a4ebe1-3f15-4b67-9fcf-0a134e682fec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-base/03-prompt-if/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-base/03-prompt-if/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-base/04-asv-confirm/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-base/04-asv-confirm/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-maths/01-calculator-one/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-maths/01-calculator-one/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-maths/03-even-square/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-maths/03-even-square/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-colors/03-change-bcg-three/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/03-colors/03-change-bcg-three/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/07-misc/01-waving-text/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/07-misc/01-waving-text/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-misc/02-typewriter-effect/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/07-misc/02-typewriter-effect/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-misc/03-worst-ui-one/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/07-misc/03-worst-ui-one/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +61,7 @@
       <updated>1576829172357</updated>
       <workItem from="1576829174043" duration="6684000" />
       <workItem from="1576838397961" duration="64301000" />
-      <workItem from="1577951885084" duration="28281000" />
+      <workItem from="1577951885084" duration="33078000" />
     </task>
     <servers />
   </component>
@@ -102,9 +106,10 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="741" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1577951887981" />
-    <state x="344" y="169" width="670" height="676" key="search.everywhere.popup" timestamp="1577699451603">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state x="344" y="160" width="670" height="741" key="search.everywhere.popup" timestamp="1578061388765">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="344" y="160" width="670" height="741" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1578061388765" />
     <state x="344" y="169" width="670" height="676" key="search.everywhere.popup/0.23.1440.822@0.23.1440.822" timestamp="1577699451603" />
   </component>
 </project>

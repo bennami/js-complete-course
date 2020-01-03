@@ -17,8 +17,6 @@ let color;
 
 color = "rgb(" + r + ","+ g + "," + b + ")";
 
-
-
 document.body.style.backgroundColor =  color;
 console.log(color);
 

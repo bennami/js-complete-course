@@ -6,6 +6,7 @@
     let txt = document.getElementById('target').innerHTML;
     console.log(txt);
     document.getElementById('target').innerHTML = '';
+
     const speed = 50;
 
     function typeWriter() {
