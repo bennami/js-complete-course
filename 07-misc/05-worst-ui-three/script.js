@@ -1,16 +1,36 @@
-/* becode/javascript
- *
- * /07-misc/05-worst-ui-three/script.js - 7.5: la pire interface (3) : phone slot
- *
- * coded by leny@BeCode
- * started at 26/10/2018
- */
-
-// NOTE: don't focus on the existing code structure for now.
-// You will have time to focus on it later.
 
 (function() {
 
-    // your code here
+   let one = document.getElementById('part-one');
+   let two = document.getElementById('part-two');
+   let three = document.getElementById('part-three');
+   let four = document.getElementById('part-four');
 
+
+
+    document.getElementById('fix-part-one').addEventListener("click", function(){
+let calc1= (Math.floor(Math.random()*((one.getAttribute('data-max')-one.getAttribute('data-min'))+1)+460));
+console.log(calc1);
+
+document.getElementById('part-one').value = calc1;
+return calc1;
+
+
+    });
+
+    document.getElementById('fix-part-two').addEventListener("click", function(){
+        let calc2= (Math.floor(Math.random()*((one.getAttribute('data-max')-one.getAttribute('data-min')))+99));
+        console.log(calc2);
+    });
+
+    document.getElementById('fix-part-three').addEventListener("click", function(){
+        let calc3= (Math.floor(Math.random()*((one.getAttribute('data-max')-one.getAttribute('data-min')))+99));
+
+        console.log(calc3);
+    });
+
+    document.getElementById('fix-part-four').addEventListener("click", function(){
+        let calc4= (Math.floor(Math.random()*((one.getAttribute('data-max')-one.getAttribute('data-min')))+99));
+        console.log(calc4);
+    });
 })();
