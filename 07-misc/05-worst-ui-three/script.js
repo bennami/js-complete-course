@@ -39,7 +39,7 @@
 
     document.getElementById('fix-part-three').addEventListener("click", function(){
 
-         calc3= (Math.floor(Math.random()*99)+1);
+        calc3= (Math.floor(Math.random()*99)+1);
         if(calc3< 10){
             calc3 = "0"+calc3;
         }
@@ -50,7 +50,7 @@
 
     document.getElementById('fix-part-four').addEventListener("click", function(){
 
-         calc4= (Math.floor(Math.random()*99)+1);
+        calc4= (Math.floor(Math.random()*99)+1);
         if(calc4< 10){
             calc4 = "0"+calc4;
         }
