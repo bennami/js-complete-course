@@ -4,7 +4,7 @@
     //define before click function so it gets the value on page load and refresh
     document.getElementById('target').innerHTML = localStorage.getItem('number');
 
-    //eventlistener for button to execute increment
+    //event listener for button to execute increment
     document.getElementById("increment").onclick = function() {increment()};
 
     let count = localStorage.getItem('number');

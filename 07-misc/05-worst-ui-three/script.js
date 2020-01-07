@@ -13,9 +13,120 @@
     let calc4 = '00';
 
 
+    function lemath() {
+        calc1= (Math.floor(Math.random()*((one.getAttribute('data-max')-(one.getAttribute('data-min')))+1)+460));
+        document.getElementById('part-one').value =  "0"+calc1;
+    }
+
+    let beginout = setInterval(lemath, 100);
 
 
-    document.getElementById('fix-part-one').addEventListener("click", function(){
+
+    function lemath2() {
+
+        calc2= (Math.floor(Math.random()*((two.getAttribute('data-max'))-(two.getAttribute('data-min')))));
+        document.getElementById('part-two').value = calc2;
+
+    }
+
+    let beginout2 = setInterval(lemath2, 100);
+
+
+
+    function lemath3() {
+
+        calc3= (Math.floor(Math.random()*((two.getAttribute('data-max'))-(two.getAttribute('data-min')))));
+        document.getElementById('part-three').value = calc3;
+
+    }
+
+    let beginout3 = setInterval(lemath3, 100);
+
+
+
+    function lemath4() {
+        calc4= (Math.floor(Math.random()*((two.getAttribute('data-max'))-(two.getAttribute('data-min')))));
+        document.getElementById('part-four').value = calc4;
+
+    }
+
+    let beginout4 = setInterval(lemath4, 100);
+
+
+
+
+
+    document.getElementById('fix-part-one').addEventListener("click", function (){
+
+
+            clearInterval(beginout);
+
+       // calc1= (Math.floor(Math.random()*((one.getAttribute('data-max')-(one.getAttribute('data-min')))+1)+460));
+       // document.getElementById('part-one').value = calc1;
+        calc1 = '0'+ calc1;
+        result.innerHTML = calc1 + calc2 + calc3 + calc4;
+        return calc1;
+
+
+
+    });
+
+    document.getElementById('fix-part-two').addEventListener("click", function run2(){
+
+        clearInterval(beginout2);
+
+        calc2= (Math.floor(Math.random()*((two.getAttribute('data-max'))-(two.getAttribute('data-min')))));
+
+         if(calc2< 10){
+            calc2 = "0"+calc2;
+        }
+        document.getElementById('part-two').value = calc2;
+        result.innerHTML = calc1 + calc2 + calc3 + calc4;
+        return calc2;
+    });
+
+    document.getElementById('fix-part-three').addEventListener("click", function run3(){
+
+        clearInterval(beginout3);
+        calc3= (Math.floor(Math.random()*((three.getAttribute('data-max'))-(three.getAttribute('data-min')))));
+        if(calc3< 10){
+            calc3 = "0"+calc3;
+        }
+        document.getElementById('part-three').value = calc3;
+        result.innerHTML = calc1 + calc2 + calc3 + calc4;
+        return calc3;
+    });
+
+    document.getElementById('fix-part-four').addEventListener("click", function run4(){
+
+        clearInterval(beginout4);
+        calc4 = (Math.floor(Math.random()*((four.getAttribute('data-max'))-(four.getAttribute('data-min')))));
+        if(calc4< 10){
+            calc4 = "0"+calc4;
+        }
+        document.getElementById('part-four').value = calc4;
+        result.innerHTML = calc1 + calc2 + calc3 + calc4;
+        return calc4;
+
+
+    });
+
+
+
+/*
+   document.addEventListener('DOMContentLoaded', function () {
+        begin();
+
+    });
+
+ */
+
+
+})();
+
+/*
+
+ document.getElementById('fix-part-one').addEventListener("click", function(){
 
         calc1= (Math.floor(Math.random()*((one.getAttribute('data-max')-one.getAttribute('data-min'))+1)+460));
         document.getElementById('part-one').value = calc1;
@@ -26,36 +137,29 @@
 
     });
 
-    document.getElementById('fix-part-two').addEventListener("click", function(){
 
-         calc2= (Math.floor(Math.random()*99)+1);
-        if(calc2< 10){
-            calc2 = "0"+calc2;
-        }
-        document.getElementById('part-two').value = calc2;
-        result.innerHTML = calc1 + calc2 + calc3 + calc4;
-        return calc2;
-    });
+// slot counter
+var count = 0;
 
-    document.getElementById('fix-part-three').addEventListener("click", function(){
+function lemath()
+{
+    count++;
+    var stuff = document.getElementById('stuff');
+    stuff.innerHTML = "stuff: " + count;
+}
 
-        calc3= (Math.floor(Math.random()*99)+1);
-        if(calc3< 10){
-            calc3 = "0"+calc3;
-        }
-        document.getElementById('part-three').value = calc3;
-        result.innerHTML = calc1 + calc2 + calc3 + calc4;
-        return calc3;
-    });
+function begin()
+{
+    lemath();
+    setTimeout(begin, 100, window);
+}
 
-    document.getElementById('fix-part-four').addEventListener("click", function(){
+document.addEventListener('DOMContentLoaded', function () {
+    begin();
 
-        calc4= (Math.floor(Math.random()*99)+1);
-        if(calc4< 10){
-            calc4 = "0"+calc4;
-        }
-        document.getElementById('part-four').value = calc4;
-        result.innerHTML = calc1 + calc2 + calc3 + calc4;
-        return calc4;
-    });
-})();
+
+
+
+});
+ */
+
