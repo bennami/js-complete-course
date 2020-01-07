@@ -2,21 +2,15 @@
 
 (function() {
 
-        document.getElementById("increment").onclick = function() {increment()};
-    //get target p
-    let number = document.getElementById('target').innerHTML;
 
-    //execute this function onclick
-    function increment() {
 
-        //increase value of number
-        let count = number++;
+    document.getElementById("increment").onclick = function() {getvalue()};
+
+    let count = 1;
+    function getvalue(){
 
         //save value in localstorage
-        localStorage.setItem('number', count);
-
-        //get saved value
-        localStorage.getItem('number');
+        localStorage.setItem('number', count++);
 
         //assign it to p tag
         document.getElementById('target').innerHTML = localStorage.getItem('number');
