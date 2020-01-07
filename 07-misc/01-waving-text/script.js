@@ -1,6 +1,7 @@
 
 
 (function() {
+
     //create empty array and get text from html
     let text = document.getElementById('target').innerHTML;
 
