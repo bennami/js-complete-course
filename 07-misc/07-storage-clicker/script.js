@@ -1,16 +1,25 @@
-/* becode/javascript
- *
- * /07-misc/07-storage-clicker/script.js - 7.7: jeu : clicker persistant
- *
- * coded by leny@BeCode
- * started at 26/10/2018
- */
 
-// NOTE: don't focus on the existing code structure for now.
-// You will have time to focus on it later.
 
 (function() {
 
-    // your code here
+        document.getElementById("increment").onclick = function() {increment()};
+    //get target p
+    let number = document.getElementById('target').innerHTML;
 
-})();
+    //execute this function onclick
+    function increment() {
+
+        //increase value of number
+        let count = number++;
+
+        //save value in localstorage
+        localStorage.setItem('number', count);
+
+        //get saved value
+        localStorage.getItem('number');
+
+        //assign it to p tag
+        document.getElementById('target').innerHTML = localStorage.getItem('number');
+
+    }
+    })();
