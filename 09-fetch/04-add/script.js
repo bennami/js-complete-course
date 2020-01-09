@@ -31,18 +31,20 @@
           //push abilities in powers
           powers.push(abilities);
 
-          console.log(name, ego, powers);
+          //console.log(name, ego, powers);
 
           //create template for object
            function Person(names, ego, powers){
                this.names = name;
-               this.ego = ego;
-               this.powers = powers;
+               this.egos = ego;
+               this.powers = abilities;
 
            }
 
+
+
            //var where hero object will be created
-           let hero = new Person(names,ego,powers);
+           let hero = new Person(name,ego,abilities);
            console.log(hero);
 
 
