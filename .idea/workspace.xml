@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b4a4ebe1-3f15-4b67-9fcf-0a134e682fec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-misc/01-waving-text/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/07-misc/01-waving-text/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-misc/05-worst-ui-three/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/07-misc/05-worst-ui-three/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-fetch/05-delete/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/09-fetch/05-delete/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <workItem from="1576829174043" duration="6684000" />
       <workItem from="1576838397961" duration="64301000" />
       <workItem from="1577951885084" duration="38454000" />
-      <workItem from="1578297977674" duration="29915000" />
+      <workItem from="1578297977674" duration="57156000" />
     </task>
     <servers />
   </component>
@@ -102,6 +101,10 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="741" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1578297980011" />
+    <state x="312" y="37" width="816" height="825" key="find.popup" timestamp="1578561355212">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="312" y="37" width="816" height="825" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1578561355212" />
     <state x="344" y="160" width="670" height="741" key="search.everywhere.popup" timestamp="1578061388765">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
