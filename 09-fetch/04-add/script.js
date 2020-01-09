@@ -1,14 +1,56 @@
-/* becode/javascript
- *
- * /09-fetch/04-add/script.js - 11.4: ajouter un élément
- *
- * coded by leny@BeCode
- * started at 12/05/2019
- */
-
-// NOTE: don't focus on the existing code structure for now.
-// You will have time to focus on it later.
 
 (() => {
-    // your code here
+
+
+    //create var for URL
+    const Url = 'http://localhost:5000/_shared/api.json';
+
+    //on click run getdata
+    document.getElementById("run").onclick = function() {Getdata()};
+
+
+
+       //create function to fetch data
+       async function Getdata() {
+
+          //fetch stream of data
+          let response = await fetch(Url);
+
+          //convert it to json format
+          let data = await response.json();
+          console.log(data);
+
+
+          //create array for abilities
+          let powers =[];
+          //get input
+          let name = document.getElementById('hero-name').value;
+          let ego = document.getElementById('hero-alter-ego').value;
+          let abilities= document.getElementById('hero-powers').value;
+
+          //push abilities in powers
+          powers.push(abilities);
+
+          console.log(name, ego, powers);
+
+          //create template for object
+           function Person(names, ego, powers){
+               this.names = name;
+               this.ego = ego;
+               this.powers = powers;
+
+           }
+
+           //var where hero object will be created
+           let hero = new Person(names,ego,powers);
+           console.log(hero);
+
+
+       }
+
+
+
+
+
+
 })();

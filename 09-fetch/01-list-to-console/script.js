@@ -13,8 +13,7 @@ function hey() {
 
     return response.json();
 
-    })
-        .then(content =>{
+    }).then(content =>{
 
     console.log(content);
 
