@@ -1,27 +1,21 @@
 
-
 (function() {
+document.getElementById('run').addEventListener("click", function () {
 
-    document.getElementById('run').addEventListener("click", function () {
-
-        //generate random color
+//generate random color
 
 let r, g, b;
 
-        //change bg color
+//change bg color
 r = Math.floor(Math.random() * 256);
 g = Math.floor(Math.random() * 256);
 b = Math.floor(Math.random() * 256);
 
 let color;
+color = `rgb(${r},${g},${b})`;
 
-color = "rgb(" + r + ","+ g + "," + b + ")";
-
+//assign color to body
 document.body.style.backgroundColor =  color;
 console.log(color);
-
     });
-
-
-
 })();

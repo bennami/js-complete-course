@@ -1,12 +1,9 @@
 
 function bgcolor(change){
-
     switch (change){
-
         case 'red':
-
             document.body.style.backgroundColor = 'red';
-        break;
+            break;
 
         case 'green':
             document.body.style.backgroundColor = 'green';

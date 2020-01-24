@@ -8,13 +8,12 @@
     document.getElementById("increment").onclick = function() {increment()};
 
     let count = localStorage.getItem('number');
-    function increment(){
 
+    function increment(){
         //save value in localstorage
         localStorage.setItem('number', count++);
-
         //assign increment to target
-        document.getElementById('target').innerHTML = localStorage.getItem('number');
+        document.getElementById('target').innerHTML = count;
 
     }
     })();
