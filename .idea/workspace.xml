@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b4a4ebe1-3f15-4b67-9fcf-0a134e682fec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-fetch/04-add/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/09-fetch/04-add/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-maths/01-calculator-one/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-maths/01-calculator-one/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-dates/05-get-spooky-fridays/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-dates/05-get-spooky-fridays/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-fetch/02-list-to-template/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/09-fetch/02-list-to-template/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +27,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jsx.switch.disabled" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -57,7 +60,10 @@
       <workItem from="1576838397961" duration="64301000" />
       <workItem from="1577951885084" duration="38454000" />
       <workItem from="1578297977674" duration="57360000" />
-      <workItem from="1578580218154" duration="3458000" />
+      <workItem from="1578580218154" duration="4370000" />
+      <workItem from="1578646469288" duration="1948000" />
+      <workItem from="1579010987724" duration="633000" />
+      <workItem from="1579876796859" duration="206000" />
     </task>
     <servers />
   </component>

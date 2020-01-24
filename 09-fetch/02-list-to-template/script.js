@@ -23,6 +23,7 @@
             console.log( data.heroes[i].alterEgo);
             console.log( data.heroes[i].abilities);
 
+
         //get the tags of tpl-hero and put it in a variable
         let template =  document.getElementById('tpl-hero') ;
 
