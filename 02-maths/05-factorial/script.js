@@ -1,9 +1,5 @@
-
-
-    
-    // to get the value of an input: document.getElementById("element-id").value
-
-    document.getElementById("run").addEventListener("click", function() {
+ // to get the value of an input: document.getElementById("element-id").value
+document.getElementById("run").addEventListener("click", function() {
 
         let input = document.getElementById('number').value;
 
