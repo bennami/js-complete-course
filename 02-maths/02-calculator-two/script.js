@@ -1,10 +1,10 @@
 
-function calc(sali) {
+function calc(param) {
     let number1 = document.getElementById ("op-one" ).value;
     let number2 = document.getElementById ("op-two" ).value ;
     let result;
 
-    switch (sali){
+    switch (param){
         case 'addition':
             result = parseInt(number1) + parseInt(number2);
             alert (result);
@@ -22,7 +22,4 @@ function calc(sali) {
             alert (result);
             break;
     }
-
-
-
 }
